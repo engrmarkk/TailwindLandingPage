@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Local Setup</title>
+    <!-- In your HTML -->
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <header class="bg-[url('https://res.cloudinary.com/duwyopabr/image/upload/v1748179904/housingg_y7wudu.jpg')] 
+    w-[100%] h-[500px] bg-cover bg-center bg-no-repeat h-screen">
+
+    </header> -->
+
+
+    <header class="relative h-screen">
+  <!-- Background Image -->
+  <div 
+    class="absolute inset-0 w-[100%] h-[650px] bg-[url('https://res.cloudinary.com/duwyopabr/image/upload/v1748179904/housingg_y7wudu.jpg')] bg-cover bg-center"
+  ></div>
+  
+  <!-- Dark Overlay -->
+  <div class="absolute inset-0 w-[100%] h-[650px] bg-black/60"></div>
+  
+  <!-- Content -->
+  <div class="relative z-10 flex justify-between h-full text-white p-8">
+    <h1 class="text-5xl font-bold mb-4">
+        The most affortable place to stay in the san franciso bay area
+    </h1>
+    <div>
+        <h1 class="text-4xl font-bold mb-4">
+            <a href="/contact.html" class="text-white bg-blue-500 px-4 py-2 rounded"><i class="fas fa-home"></i> </a>
+        </h1>
+    </div>
+  </div>
+</header>
+</body>
+</html>
+
