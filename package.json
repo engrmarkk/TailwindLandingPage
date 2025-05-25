@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "dev": "node init && npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "node init && npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "repository": {
     "type": "git",
